@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// DataTables
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import "datatables.net-bs5/css/dataTables.bootstrap5.min.css";
+@import "datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css";
+@import 'datatables.net-select-bs5/css/select.bootstrap5.css';
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    filter: blur(2px);
+}
+
+footer {
+   
+    .parteArriba {
+        background-color: #0D6EFD;
+        min-width: 100%;
+    }
+    
+    .parteAbajo {
+        background-color: #0d4cab;
+    }
+}
+.table.dataTable{
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    footer {
+        .parteArriba {
+            visibility: hidden;
+            display: none;
+        }
+        min-width: 100%;
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+        .col-lg-6,
+        .col-lg-3 {
+            width: 100%;
+            text-align: center;
+        }
+        h5.text-uppercase {
+            margin-bottom: 1rem;
+        }
+        ul.list-unstyled {
+            margin-bottom: 1rem;
+        }
+    }
+}
