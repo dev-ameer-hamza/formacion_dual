@@ -1,7 +1,7 @@
 APP_NAME=Desuto
 APP_ENV=production
 APP_KEY=base64:OgWow5S2VsyDg7D8K4OxJRjexeWJpaaZ+ijhjgopRSY=
-APP_DEBUG=false
+APP_DEBUG=true
 APP_URL=http://localhost
 LOG_CHANNEL=stack
 LOG_DEPRECATIONS_CHANNEL=null
